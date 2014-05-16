@@ -27,13 +27,12 @@
 
   /*text preferences*/
 h1, h2{
-  font-size: 500%;
   font-family: serif;
   color: #06266F;
   font:serif;
 }
 p{
-  font-size:250%;
+  font-size:150%;
   color:#06266F;
   font-family: 'Droid Serif', serif;
 }
