@@ -68,14 +68,14 @@ p{
 
 /* dragging effects*/
 .start-dragging{
-  background-color:red;
+  border: dashed 2px;
 }
 .end-dragging{
   opacity:1;
-  width:100%;
+  width:50%;
 }
 .dropzone{
-  background-color: blue;
+  background-color: green;
 }
 
 /* Xtra Small */
