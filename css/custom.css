@@ -1,0 +1,124 @@
+.centered {
+  text-align:center;
+}
+
+#heading{
+  background-color: #4671D5;
+}
+
+.background{
+  background-color: #DDF0F8;
+  margin-top:50px;
+  opacity: 0.8;
+  background: #cbe2db;
+  background-repeat: repeat-x, repeat;
+}
+
+.grade{
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(128,154,188,1) 44%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(44%, rgba(128,154,188,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(128,154,188,1) 44%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(128,154,188,1) 44%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(128,154,188,1) 44%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(128,154,188,1) 44%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+  /*text preferences*/
+h1, h2{
+  font-size: 500%;
+  font-family: serif;
+  color: #06266F;
+  font:serif;
+}
+p{
+  font-size:250%;
+  color:#06266F;
+  font-family: 'Droid Serif', serif;
+}
+
+.block{
+  color:white;
+  background-color:#4671D5;
+  font-family: 'Droid Serif', serif;
+  border: solid;
+  border-color: #2A4480; 
+  opacity:0.7;
+}
+
+.tab{
+  border: solid;
+  border-color: #06266F;
+  border-radius:5px;
+  background-color: #DDF0F8;
+  color:#06266F;
+  cursor: move;
+}
+/* navbars*/
+#nav-color{
+  background-color:#06266F;
+}
+/* Making text in draggable element non selectable */
+[draggable] {
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  -webkit-user-select: none;
+}
+
+/* dragging effects*/
+.start-dragging{
+  background-color:red;
+}
+.end-dragging{
+  opacity:1;
+  width:100%;
+}
+.dropzone{
+  background-color: blue;
+}
+
+/* Xtra Small */
+@media (max-width: 767px) {
+  .xs-text-centered {
+    text-align: center;
+  }
+  .sm-text-centered {
+    text-align: center;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .sm-dl-fit dt {
+    width: 30px;
+  }
+  .sm-dl-fit dd {
+    margin-left: 50px;
+  }
+  .sm-text-centered {
+    text-align: center;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sm-dl-fit dt {
+    width: 50px;
+  } 
+  .sm-dl-fit dd {
+    margin-left: 70px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .sm-dl-fit dt {
+    width: 50px;
+  } 
+  .sm-dl-fit dd {
+    margin-left: 70px;
+  }
+}
+
